@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --main-font: 'Inter', 'Arial', sans-serif;
+    --accent-font: 'Press Start 2P', 'Courier New', monospace;
+    --font-weight-main: 400;
+    --font-weight-title: 700;
+    --background-color: #fff;
+    --accent-color: #000000;
+    --background-image: 
+    /* градиент для повторяющихся полос слева направо */
+    repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    /* градиент для повторяющихся полос сверху вниз */
+    repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    /* градиент для равномерного перехода сверху вниз */
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --watermark-color: #000;
+    --watermark-stroke-color: #fff;
+    --button-text-color: #fff;
+    --heart-fill: #FF0000;
+  }
